@@ -1,0 +1,8 @@
+# Simple HTTP server boilerplate.
+
+- Supports SSL encryption (uses acme/autocert)
+- Supports JWT tokens and user roles (uses drijalva/jwt-gi)
+
+To run this without root privileges:
+
+setcap cap_net_bind_service=+ep go-http-starter
